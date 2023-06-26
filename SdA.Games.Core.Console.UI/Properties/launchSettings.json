@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SdA.Games.Core.Console.UI": {
+      "commandName": "Project",
+      "commandLineArgs": "test=1"
+    },
+    "Profil 1": {
+      "commandName": "Executable"
+    },
+    "Profil 2": {
+      "commandName": "Project"
+    }
+  }
+}
