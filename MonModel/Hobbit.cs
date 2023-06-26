@@ -1,23 +1,28 @@
 ﻿namespace SdA.Games.Core.Models
 {
-    internal class Hobbit : Character
+    public class Hobbit : Character
     {
-        private Dictionary<EtatFaim, IMoyenDeDeplacement> _moyenDeDeplacements = new()
-        {
-            { EtatFaim.PasFaim, new Marche() },
-            { EtatFaim.Faim, new Courir() },
-            { EtatFaim.TresFaim, new Sauter() },
-        };
+        private Dictionary<EtatFaim, IMoyenDeDeplacement> _moyenDeDeplacements;
 
         public Hobbit(int id) : base(id)
         {
+        }
+
+        public Hobbit(Action<string> afficher) : base(0)
+        {
+            this._moyenDeDeplacements = new()
+            {
+                { EtatFaim.PasFaim, new Marche(afficher) },
+                { EtatFaim.Faim, new Courir() },
+                { EtatFaim.TresFaim, new Sauter() },
+            };
         }
 
         private EtatFaim etatFaim = EtatFaim.PasFaim;
         public EtatFaim EtatFaim
         {
             get => etatFaim;
-            set
+            private set
             {
                 this.etatFaim = value;
                 this.MoyenDeDeplacement = this._moyenDeDeplacements[value];

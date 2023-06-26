@@ -1,6 +1,6 @@
 ﻿namespace SdA.Games.Core.Models
 {
-    internal enum EtatFaim
+    public enum EtatFaim
     {
         PasFaim,
         Faim,
