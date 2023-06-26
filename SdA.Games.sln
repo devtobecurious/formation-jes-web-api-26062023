@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projet final", "Projet fina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Models", "MonModel\SdA.Games.Core.Models.csproj", "{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverRecord", "DiscoverRecord\DiscoverRecord.csproj", "{651D0399-58F4-46B8-8E36-DBF169E8B1F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651D0399-58F4-46B8-8E36-DBF169E8B1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651D0399-58F4-46B8-8E36-DBF169E8B1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651D0399-58F4-46B8-8E36-DBF169E8B1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651D0399-58F4-46B8-8E36-DBF169E8B1F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{80CC2A6D-19D6-478F-93CC-B1E80494AD72} = {18FC9BB8-7500-4F53-B79A-92393D882A34}
 		{6B95B7E9-8EBC-4EAD-A81E-B29BD1345D0B} = {18FC9BB8-7500-4F53-B79A-92393D882A34}
 		{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1} = {18FC9BB8-7500-4F53-B79A-92393D882A34}
+		{651D0399-58F4-46B8-8E36-DBF169E8B1F5} = {18FC9BB8-7500-4F53-B79A-92393D882A34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FFA691B-9B74-48EC-810F-ACA38E170C43}
