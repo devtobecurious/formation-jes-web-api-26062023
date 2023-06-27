@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SdA.Games.Core.Web.Api.UI.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+    //[ApiController]
+    [Route("api/v1/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

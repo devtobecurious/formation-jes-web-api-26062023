@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SdA.Games.Core.Interfaces\SdA.Games.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\SdA.Games.Core.Models.Games\SdA.Games.Core.Models.Games.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="SdA.Games.Core.Interfaces" />
+  </ItemGroup>
+
+</Project>
