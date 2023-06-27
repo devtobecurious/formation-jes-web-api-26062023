@@ -7,5 +7,6 @@
         public bool IsSuccess { get; set; }
 
 
+        public string Titre { get; set; }
     }
 }

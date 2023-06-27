@@ -1,6 +1,6 @@
 ﻿namespace SdA.Games.Core.Models
 {
-    internal interface IMoyenDeDeplacement
+    public interface IMoyenDeDeplacement
     {
         void SeDeplacer();
 

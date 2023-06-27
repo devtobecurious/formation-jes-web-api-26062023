@@ -2,13 +2,10 @@
 {
     public class Hobbit : Character
     {
-        private Dictionary<EtatFaim, IMoyenDeDeplacement> _moyenDeDeplacements;
 
-        public Hobbit(int id) : base(id)
-        {
-        }
+        private readonly Dictionary<EtatFaim, IMoyenDeDeplacement>? _moyenDeDeplacements;
 
-        public Hobbit(Action<string> afficher) : base(0)
+        public Hobbit(int id, Action<string> afficher) : base(id)
         {
             this._moyenDeDeplacements = new()
             {
@@ -16,6 +13,11 @@
                 { EtatFaim.Faim, new Courir() },
                 { EtatFaim.TresFaim, new Sauter() },
             };
+        }
+
+        public Hobbit(Action<string> afficher) : this(0, afficher)
+        {
+
         }
 
         private EtatFaim etatFaim = EtatFaim.PasFaim;

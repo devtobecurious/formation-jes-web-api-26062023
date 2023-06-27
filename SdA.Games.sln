@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Interfaces", "SdA.Games.Core.Interfaces\SdA.Games.Core.Interfaces.csproj", "{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Infrastructures.Games.InMemory", "SdA.Games.Core.Infrastructures.Games.InMemory\SdA.Games.Core.Infrastructures.Games.InMemory.csproj", "{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{2FBC3560-9FC7-4035-B8E4-0317BD6FCA9B} = {3889A8A5-7223-45B5-AB5E-0C29FA609A2D}
 		{A91D10E0-48DA-4412-ACB6-ACC1C8B62829} = {4855610F-791A-4AD9-BD0B-AFB2AE4EA8E2}
 		{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0} = {A91D10E0-48DA-4412-ACB6-ACC1C8B62829}
+		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E} = {3889A8A5-7223-45B5-AB5E-0C29FA609A2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FFA691B-9B74-48EC-810F-ACA38E170C43}

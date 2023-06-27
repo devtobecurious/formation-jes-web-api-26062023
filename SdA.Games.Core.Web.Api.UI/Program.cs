@@ -11,8 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 #if DEBUG
-builder.Services.AddScoped<IAllGameService, InMemoryAllGameService>(;
+builder.Services.AddScoped<IAllGameService, InMemoryAllGameService>();
 #else
+//builder.Services.AddScoped<IAllGameService, AllGameService>();
 builder.Services.AddScoped<IAllGameService, AllGameService>();
 #endif
 
