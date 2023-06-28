@@ -1,12 +1,27 @@
-﻿namespace SdA.Games.Core.Models.Games
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace SdA.Games.Core.Models.Games;
+
+public record GameSetting(int NbPointsAGagner);
+
+public class Game
 {
-    public class Game
+    public int Id { get; set; }
+
+    public bool IsSuccess { get; set; }
+
+    //[MaybeNull]
+    private string? titre;
+    public string? Titre
     {
-        public int Id { get; set; }
+        get => titre;
+        set => titre = value ?? throw new ArgumentNullException("value");
+    }
 
-        public bool IsSuccess { get; set; }
 
-
-        public string Titre { get; set; }
+    [return: NotNullIfNotNull(nameof(toto))]
+    public string? GetSate(string? toto)
+    {
+        return null;
     }
 }

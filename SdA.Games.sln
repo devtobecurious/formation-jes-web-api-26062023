@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Console.UI", "SdA.Games.Core.Console.UI\SdA.Games.Core.Console.UI.csproj", "{17BC706D-4595-47E6-86C5-31BD92967348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Console.UI", "SdA.Games.Core.Console.UI\SdA.Games.Core.Console.UI.csproj", "{17BC706D-4595-47E6-86C5-31BD92967348}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{80CC2A6D-19D6-478F-93CC-B1E80494AD72}"
 EndProject
@@ -15,21 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learnings", "Learnings", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projet final", "Projet final", "{9C668EC0-7383-4B4A-A45C-AF745DEABF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Models", "MonModel\SdA.Games.Core.Models.csproj", "{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Models", "MonModel\SdA.Games.Core.Models.csproj", "{1BB6A1EA-A0BC-4368-B834-5F3BE4FA39D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverRecord", "DiscoverRecord\DiscoverRecord.csproj", "{651D0399-58F4-46B8-8E36-DBF169E8B1F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverRecord", "DiscoverRecord\DiscoverRecord.csproj", "{651D0399-58F4-46B8-8E36-DBF169E8B1F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindDelegates", "RemindDelegates\RemindDelegates.csproj", "{C0A2A4B7-B3FB-49CA-822E-D8C0F8A23AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemindDelegates", "RemindDelegates\RemindDelegates.csproj", "{C0A2A4B7-B3FB-49CA-822E-D8C0F8A23AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModels", "TestModels\TestModels.csproj", "{1A128F8A-3031-4452-A18A-F2285965A541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestModels", "TestModels\TestModels.csproj", "{1A128F8A-3031-4452-A18A-F2285965A541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Web.Api.UI", "SdA.Games.Core.Web.Api.UI\SdA.Games.Core.Web.Api.UI.csproj", "{020ECB41-C70F-4135-BDA0-406B150CA5A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Web.Api.UI", "SdA.Games.Core.Web.Api.UI\SdA.Games.Core.Web.Api.UI.csproj", "{020ECB41-C70F-4135-BDA0-406B150CA5A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Models.Games", "SdA.Games.Core.Models.Games\SdA.Games.Core.Models.Games.csproj", "{7F95E6DF-5204-48BF-8CD2-4C44D1DE44FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Models.Games", "SdA.Games.Core.Models.Games\SdA.Games.Core.Models.Games.csproj", "{7F95E6DF-5204-48BF-8CD2-4C44D1DE44FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{FA678BBA-6B68-42F3-BA2A-947860C18F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Applications.Games", "SdA.Games.Core.Services.Games\SdA.Games.Core.Applications.Games.csproj", "{08CDC9AE-67CD-4B01-9A31-279C390FD246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Applications.Games", "SdA.Games.Core.Services.Games\SdA.Games.Core.Applications.Games.csproj", "{08CDC9AE-67CD-4B01-9A31-279C390FD246}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{224CD333-20B4-4E9A-BA4E-0984BDC9EB5C}"
 EndProject
@@ -37,13 +37,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3889A8A5-7223-45B5-AB5E-0C29FA609A2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Infrastructures.Games", "SdA.Games.Core.Infrastructures.Games\SdA.Games.Core.Infrastructures.Games.csproj", "{2FBC3560-9FC7-4035-B8E4-0317BD6FCA9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Infrastructures.Games", "SdA.Games.Core.Infrastructures.Games\SdA.Games.Core.Infrastructures.Games.csproj", "{2FBC3560-9FC7-4035-B8E4-0317BD6FCA9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{A91D10E0-48DA-4412-ACB6-ACC1C8B62829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Interfaces", "SdA.Games.Core.Interfaces\SdA.Games.Core.Interfaces.csproj", "{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Interfaces", "SdA.Games.Core.Interfaces\SdA.Games.Core.Interfaces.csproj", "{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdA.Games.Core.Infrastructures.Games.InMemory", "SdA.Games.Core.Infrastructures.Games.InMemory\SdA.Games.Core.Infrastructures.Games.InMemory.csproj", "{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Infrastructures.Games.InMemory", "SdA.Games.Core.Infrastructures.Games.InMemory\SdA.Games.Core.Infrastructures.Games.InMemory.csproj", "{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverEfCore", "DiscoverEfCore\DiscoverEfCore.csproj", "{A4487ED7-1C75-4144-91BA-5B4B177D01AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{1B01EDA2-52D0-49CE-A298-52C5EBEB7F1D}"
+	ProjectSection(SolutionItems) = preProject
+		readonly-snippet.snippet = readonly-snippet.snippet
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +110,10 @@ Global
 		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4487ED7-1C75-4144-91BA-5B4B177D01AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4487ED7-1C75-4144-91BA-5B4B177D01AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4487ED7-1C75-4144-91BA-5B4B177D01AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4487ED7-1C75-4144-91BA-5B4B177D01AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +137,7 @@ Global
 		{A91D10E0-48DA-4412-ACB6-ACC1C8B62829} = {4855610F-791A-4AD9-BD0B-AFB2AE4EA8E2}
 		{FDBBD4E4-97F7-4087-96E6-C30F78FEA5A0} = {A91D10E0-48DA-4412-ACB6-ACC1C8B62829}
 		{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E} = {3889A8A5-7223-45B5-AB5E-0C29FA609A2D}
+		{A4487ED7-1C75-4144-91BA-5B4B177D01AE} = {18FC9BB8-7500-4F53-B79A-92393D882A34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FFA691B-9B74-48EC-810F-ACA38E170C43}

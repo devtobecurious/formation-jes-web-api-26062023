@@ -8,6 +8,14 @@ namespace SdA.Games.Core.Web.Api.UI.Controllers
     [ApiConventionType(typeof(DefaultApiConventions))]
     public class GamesController : ControllerBase
     {
+        public GamesController(IHost host, IHostEnvironment environment)
+        {
+            if (environment.IsDevelopment())
+            {
+
+            }
+        }
+
         [HttpGet("GetAllGames")]
         //[ApiConventionMethod(typeof(DefaultApiConventions),
         //                     nameof(DefaultApiConventions.Get))]
