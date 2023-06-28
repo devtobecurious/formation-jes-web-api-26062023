@@ -4,6 +4,7 @@ namespace SdA.Games.Core.Models.Games;
 
 public record GameSetting(int NbPointsAGagner);
 
+//[Table("SD001")]
 public class Game
 {
     public int Id { get; set; }

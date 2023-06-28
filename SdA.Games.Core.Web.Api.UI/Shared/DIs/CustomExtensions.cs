@@ -1,6 +1,6 @@
-﻿using SdA.Games.Core.Applications.Games;
+﻿using Microsoft.EntityFrameworkCore;
+using SdA.Games.Core.Applications.Games;
 using SdA.Games.Core.Infrastructures.Games;
-using SdA.Games.Core.Infrastructures.Games.InMemory;
 using SdA.Games.Core.Services.Games;
 
 namespace SdA.Games.Core.Web.Api.UI.Shared.DIs
@@ -12,12 +12,13 @@ namespace SdA.Games.Core.Web.Api.UI.Shared.DIs
         {
             services.AddSingleton<IGetOneGameSettingService, GetOneGameSettingService>();
 
-#if DEBUG
-            services.AddScoped<IAllGameService, InMemoryAllGameService>();
-#else
-services.AddScoped<IAllGameService, AllGameService>();
-services.AddScoped<IAllGameService, AllGameService>();
-#endif
+            services.AddScoped<IAllGameService, AllGameService>();
+
+            services.AddDbContext<GameDbContext>(options =>
+            {
+                options.UseOracle("test", b => b.MigrationsAssembly("SdA.Games.Core.Web.Api.UI"));
+            });
+
             return services;
         }
         #endregion

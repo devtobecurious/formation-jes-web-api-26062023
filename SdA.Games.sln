@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverEfCore", "DiscoverE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{1B01EDA2-52D0-49CE-A298-52C5EBEB7F1D}"
 	ProjectSection(SolutionItems) = preProject
-		readonly-snippet.snippet = readonly-snippet.snippet
+		CustomSnippets\pra.snippet = CustomSnippets\pra.snippet
 	EndProjectSection
 EndProject
 Global

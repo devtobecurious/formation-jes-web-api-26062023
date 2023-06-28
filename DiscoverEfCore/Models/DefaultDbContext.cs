@@ -26,6 +26,8 @@ namespace DiscoverEfCore.Models
 
     public class DefaultDbContext : DbContext
     {
+
+
         public DefaultDbContext(DbContextOptions options) : base(options)
         {
         }

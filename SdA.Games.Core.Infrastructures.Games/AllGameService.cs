@@ -7,15 +7,17 @@ namespace SdA.Games.Core.Infrastructures.Games
     public class AllGameService : IAllGameService
     {
         private readonly IGetOneGameSettingService settingService;
+        private readonly GameDbContext gameContext;
 
-        public AllGameService(IGetOneGameSettingService settingService)
+        public AllGameService(IGetOneGameSettingService settingService, GameDbContext gameContext)
         {
             this.settingService = settingService;
+            this.gameContext = gameContext;
         }
 
-        public List<Game> GetAll()
+        public List<Game>? GetAll()
         {
-            throw new NotImplementedException();
+            return this.gameContext.Games?.ToList();
         }
     }
 }

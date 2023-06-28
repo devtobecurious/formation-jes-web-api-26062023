@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SdA.Games.Core.Infrastructures.Games;
 using SdA.Games.Core.Services.Games;
 
 namespace SdA.Games.Core.Web.Api.UI.Controllers
@@ -21,8 +22,11 @@ namespace SdA.Games.Core.Web.Api.UI.Controllers
         //                     nameof(DefaultApiConventions.Get))]
         //[ProducesResponseType(typeof(Game), StatusCodes.Status200OK)]
         //[HttpGet(Name = "GetAllGames")]
-        public IActionResult GetAll([FromServices] IAllGameService service)
+        public IActionResult GetAll([FromServices] IAllGameService service,
+            [FromServices] GameDbContext context)
         {
+            context.ChangeTracker.QueryTrackingBehavior = Microsoft.EntityFrameworkCore.QueryTrackingBehavior.NoTracking;
+
             return this.Ok(service.GetAll());
         }
     }

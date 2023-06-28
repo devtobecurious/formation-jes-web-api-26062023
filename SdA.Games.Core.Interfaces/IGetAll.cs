@@ -2,6 +2,6 @@
 {
     public interface IGetAll<T> where T : class
     {
-        List<T> GetAll();
+        List<T>? GetAll();
     }
 }
