@@ -1,4 +1,5 @@
-﻿using SdA.Games.Core.Applications.Games;
+﻿using Microsoft.EntityFrameworkCore;
+using SdA.Games.Core.Applications.Games;
 using SdA.Games.Core.Models.Games;
 using SdA.Games.Core.Services.Games;
 
@@ -17,7 +18,7 @@ namespace SdA.Games.Core.Infrastructures.Games
 
         public List<Game>? GetAll()
         {
-            return this.gameContext.Games?.ToList();
+            return this.gameContext.Games?.AsNoTracking().ToList();
         }
     }
 }

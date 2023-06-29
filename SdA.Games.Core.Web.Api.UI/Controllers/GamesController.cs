@@ -29,5 +29,14 @@ namespace SdA.Games.Core.Web.Api.UI.Controllers
 
             return this.Ok(service.GetAll());
         }
+
+        [HttpPost]
+        [ApiConventionMethod(typeof(DefaultApiConventions), nameof(DefaultApiConventions.Post))]
+        public IActionResult Post(int id, string name)
+        {
+            return this.Ok(new { Id = id });
+        }
     }
+
+    public record Test(int Id, int Name);
 }
