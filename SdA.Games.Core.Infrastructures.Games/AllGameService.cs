@@ -18,6 +18,7 @@ namespace SdA.Games.Core.Infrastructures.Games
 
         public List<Game>? GetAll()
         {
+            throw new NotImplementedException("Ouch, j'ai zappé de finir le code");
             return this.gameContext.Games?.AsNoTracking().ToList();
         }
     }

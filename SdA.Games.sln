@@ -45,11 +45,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Interfaces",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdA.Games.Core.Infrastructures.Games.InMemory", "SdA.Games.Core.Infrastructures.Games.InMemory\SdA.Games.Core.Infrastructures.Games.InMemory.csproj", "{9FEB5C4E-E23E-49FF-97CC-C65DDC383D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverEfCore", "DiscoverEfCore\DiscoverEfCore.csproj", "{A4487ED7-1C75-4144-91BA-5B4B177D01AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverEfCore", "DiscoverEfCore\DiscoverEfCore.csproj", "{A4487ED7-1C75-4144-91BA-5B4B177D01AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{1B01EDA2-52D0-49CE-A298-52C5EBEB7F1D}"
 	ProjectSection(SolutionItems) = preProject
 		CustomSnippets\pra.snippet = CustomSnippets\pra.snippet
+		global.json = global.json
 	EndProjectSection
 EndProject
 Global

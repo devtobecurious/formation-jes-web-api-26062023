@@ -1,0 +1,18 @@
+﻿@SdA.Games.Core.Web.Api.UI_HostAddress = https://localhost:7067
+
+GET {{SdA.Games.Core.Web.Api.UI_HostAddress}}/api/games/GetAllGames
+
+###
+
+POST {{SdA.Games.Core.Web.Api.UI_HostAddress}}/api/games?name=test
+
+{
+  "Id": 1,
+  "Name": "Test"
+}
+
+###
+
+POST {{SdA.Games.Core.Web.Api.UI_HostAddress}}/api/games?id=0&name=string
+
+###

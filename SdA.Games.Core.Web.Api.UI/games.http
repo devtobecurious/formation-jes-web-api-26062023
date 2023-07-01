@@ -1,0 +1,17 @@
+﻿
+@hostname=localhost
+@port=1222
+@getUrl=GetAllGames
+@url=https://{{hostname}}:{{port}}/api/games
+
+### GET
+GET {{url}}/{{getUrl}}
+
+
+### POST 
+POST {{url}}
+Content-Type: application/json
+
+{
+    "Id": 1
+}
